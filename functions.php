@@ -139,18 +139,18 @@ remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 add_action( 'genesis_footer', 'genesis_do_subnav', 12 );
 
 // Reduce secondary navigation menu to one level depth.
-//add_filter( 'wp_nav_menu_args', 'digital_secondary_menu_args' );
-//function digital_secondary_menu_args( $args ) {
-//
-///	if ( 'secondary' != $args['theme_location'] ) {
-//		return $args;
-//	}
-//
-//	$args['depth'] = 1;
-//
-//	return $args;
-//
-//}
+add_filter( 'wp_nav_menu_args', 'digital_secondary_menu_args' );
+function digital_secondary_menu_args( $args ) {
+
+	if ( 'secondary' != $args['theme_location'] ) {
+		return $args;
+	}
+
+	$args['depth'] = 1;
+
+	return $args;
+
+}
 
 // Remove skip link for primary navigation.
 add_filter( 'genesis_skip_links_output', 'digital_skip_links_output' );
@@ -295,9 +295,14 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the 1st section on the front page.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-2',
-	'name'        => __( 'Front Page 2', 'digital-pro' ),
-	'description' => __( 'This is the 2nd section on the front page.', 'digital-pro' ),
+	'id'          => 'front-page-2-left',
+	'name'        => __( 'Front Page 2 (Left Side)', 'digital-pro' ),
+	'description' => __( 'This is the 2nd section on the front page on the left side.', 'digital-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-2-right',
+	'name'        => __( 'Front Page 2 (Right Side)', 'digital-pro' ),
+	'description' => __( 'This is the 2nd section on the front page on the right side.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-3',
