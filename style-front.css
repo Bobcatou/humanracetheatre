@@ -307,9 +307,19 @@ front-page-1 {
 
 .front-page-3 {
 	background-color: #232525;
-	padding: 8% 4%;
-	text-align: center;
+	padding: 4% 4%;
+/*	text-align: center; */
 }
+
+/* Bottom menu styling */
+#nav_menu-8 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children {
+	display: inline-block;
+	width: 33%;
+    vertical-align: top;
+    margin-top:20px;
+
+}
+
 
 .front-page-3 .widget {
 	margin-bottom: 40px;
@@ -514,3 +524,5 @@ front-page-1 {
 	}
 
 }
+
+
