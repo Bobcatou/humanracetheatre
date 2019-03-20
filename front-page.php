@@ -138,13 +138,25 @@ genesis_widget_area( 'front-page-1', array(
 		'before' => '<div id="front-page-2" class="front-page-2 one-half"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_halves_widget_area_class( 'front-page-2' ) . '">',
 		'after'  => '</div></div></div>',
 	) );
+
+
+//*Closes wrap and clears columns LWM
 		echo '</div>';
 		echo '<div class="clearfix"></div>';
+
+
+genesis_widget_area( 'front-page-4', array(
+		'before' => '<div id="front-page-4" class="front-page-4"><div class="wrap"><div class="widget-area fadeup-effect">',
+		'after'  => '</div></div>',
+	) );
 
 	genesis_widget_area( 'front-page-3', array(
 		'before' => '<div id="front-page-3" class="front-page-3"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_widget_area_class( 'front-page-3' ) . '">',
 		'after'  => '</div></div></div>',
 	) );
+
+
+
 
 }
 
