@@ -387,6 +387,14 @@ front-page-1 {
 }
 
 
+/* Front Page 4 Added by lwm
+--------------------------------------------- */
+.front-page-4 .wrap {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 /* LWM Changes */
 .soliloquy-outer-container.soliloquy-thumbnails-outer-container.soliloquy-thumbnails-position-bottom {
