@@ -314,3 +314,8 @@ genesis_register_sidebar( array(
 	'name'        => __( 'About the Theater Area', 'digital-pro' ),
 	'description' => __( 'Information of the Theater.', 'digital-pro' ),
 ) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-5',
+	'name'        => __( 'Promo Area', 'digital-pro' ),
+	'description' => __( 'This is above the footer menu', 'digital-pro' ),
+) );
