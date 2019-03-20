@@ -125,7 +125,7 @@ genesis_widget_area( 'front-page-1', array(
 		'before' => '<div id="front-page-1" class="front-page-1"><div class="widget-area fadeup-effect">',
 		'after'  => '</div></div>',
 	) );
-
+//* Wraps front page 2 widgets LWM
 		echo '<div class="wrap">';
 
 
@@ -138,7 +138,7 @@ genesis_widget_area( 'front-page-1', array(
 		'before' => '<div id="front-page-2" class="front-page-2 one-half"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_halves_widget_area_class( 'front-page-2' ) . '">',
 		'after'  => '</div></div></div>',
 	) );
-
+		echo '</div>';
 		echo '<div class="clearfix"></div>';
 
 	genesis_widget_area( 'front-page-3', array(
