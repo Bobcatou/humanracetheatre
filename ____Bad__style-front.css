@@ -1,0 +1,206 @@
+/* Front Page 1
+--------------------------------------------- */
+
+.front-page-1 {
+	/*display: table;*/
+	margin-top: 90px;
+	/*overflow: hidden;
+	table-layout: fixed;
+	width: 100%;*/
+}
+
+/*.front-page-1 .wrap {
+	margin: 0 auto;
+	max-width: 1280px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.front-page-1 .widget {
+	margin-bottom: 40px;
+}
+
+.front-page-1 .widget-area {
+	display: table-cell;
+	padding-top: 20px;
+	vertical-align: middle;
+	width: 100%;
+}*/
+
+.front-page-1,
+.front-page-1 p,
+.front-page-1 .widget-title {
+	color: #232525;
+}
+
+.front-page-1 .widget_text .widget-title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 84px;
+	font-size: 8.4rem;
+	font-weight: 600;
+	letter-spacing: -3px;
+	margin-bottom: 0;
+	text-transform: none;
+}
+
+.front-page-1 p {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+.front-page-1 p:last-child {
+	margin-bottom: 0;
+}
+
+.front-page-1 button,
+.front-page-1 input[type="button"],
+.front-page-1 input[type="reset"],
+.front-page-1 input[type="submit"],
+.front-page-1 .textwidget a.button {
+	border: none;
+	margin-top: 60px;
+}
+
+.front-page-1 button:focus,
+.front-page-1 button:hover,
+.front-page-1 input:focus[type="button"],
+.front-page-1 input:hover[type="button"],
+.front-page-1 input:focus[type="reset"],
+.front-page-1 input:hover[type="reset"],
+.front-page-1 input:focus[type="submit"],
+.front-page-1 input:hover[type="submit"],
+.front-page-1 .textwidget a.button:focus,
+.front-page-1 .textwidget a.button:hover {
+	background-color: #fff;
+	border: none;
+	color: #232525;
+}
+
+.front-page-1 .soliloquy-container,
+.front-page-1 .soliloquy-container * {
+	line-height: 2;
+}
+
+.front-page-1 .soliloquy-container {
+	margin-bottom: 0 !important;
+}
+
+.front-page-1 .soliloquy-container .soliloquy-image {
+	width: 100%;
+}
+
+.front-page-1 .soliloquy-container .soliloquy-caption.soliloquy-caption-bottom {
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+.front-page-1 .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+	background: transparent;
+	text-align: left;
+	max-width: 1280px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
+}
+
+.front-page-1 .soliloquy-container .soliloquy-caption h3 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 84px;
+	font-size: 8.4rem;
+	font-weight: 600;
+	letter-spacing: -3px;
+	line-height: 1.2;
+}
+
+.soliloquy-container a.button {
+	background-color: #e85555;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	padding: 20px 30px;
+	margin-top: 60px;
+}
+
+.soliloquy-container a.button:hover {
+	background-color: #fff;
+	color: #232525;
+}
+
+@media only screen and (max-width: 1300px) {
+
+	.front-page-1 .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.front-page-1 .soliloquy-container .soliloquy-caption h3 {
+		font-size: 6.4rem;
+	}
+
+	.front-page-1 p {
+		font-size: 2rem;
+	}
+
+	.soliloquy-container a.button {
+		font-size: 1.2rem;
+		padding: 10px 20px;
+	}
+
+}
+
+@media only screen and (max-width: 840px) {
+
+	.front-page-1 .soliloquy-container .soliloquy-caption h3 {
+		font-size: 3rem;
+		letter-spacing: -1px;
+	}
+
+	.front-page-1 p {
+		font-size: 1.5rem;
+	}
+
+	.soliloquy-container a.button {
+		margin-top: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 668px) {
+
+	.front-page-1 .soliloquy-container .soliloquy-caption.soliloquy-caption-bottom {
+		top: 40%;
+		-webkit-transform: translate(0, -40%);
+		-moz-transform: translate(0, -40%);
+		-ms-transform: translate(0, -40%);
+		-o-transform: translate(0, -40%);
+		transform: translate(0, -40%);
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.front-page-1 .soliloquy-container .soliloquy-caption.soliloquy-caption-bottom {
+		position: static;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		background-color: #d8d8d8;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
