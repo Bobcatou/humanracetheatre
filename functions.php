@@ -311,6 +311,6 @@ genesis_register_sidebar( array(
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4',
-	'name'        => __( 'Announcement-Promo Area', 'digital-pro' ),
-	'description' => __( 'Area to add announcements, ads ect.', 'digital-pro' ),
+	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'description' => __( 'Information of the Theater.', 'digital-pro' ),
 ) );
