@@ -306,6 +306,11 @@ genesis_register_sidebar( array(
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-3',
-	'name'        => __( 'Front Page 3', 'digital-pro' ),
+	'name'        => __( 'Bottom Menu', 'digital-pro' ),
 	'description' => __( 'This is the 3rd section on the front page.', 'digital-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4',
+	'name'        => __( 'Announcement-Promo Area', 'digital-pro' ),
+	'description' => __( 'Area to add announcements, ads ect.', 'digital-pro' ),
 ) );
