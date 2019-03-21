@@ -1639,7 +1639,9 @@ p.entry-meta {
 .page .entry-header,
 .single .entry-header {
 	margin: 0 auto 5%;
-	max-width: 660px;
+/*	max-width: 660px; */
+	max-width: 1280px;
+
 }
 
 .page.page-template-page_blog .entry-header {
@@ -1650,6 +1652,10 @@ p.entry-meta {
 	margin: 30px auto 60px;
 	max-width: 660px;
 }
+
+
+
+
 
 /* After Entry
 --------------------------------------------- */
@@ -2018,11 +2024,24 @@ p.form-submit,
 
 .hr-shows td {
     text-align: center;
+    padding-top: 30px;
+}
+/* Title centered */
+.post-169 h1.entry-title {
+	text-align: center;
 }
 
+.hr-shows p {
+	margin-bottom: 0;
+	line-height: 10px;
+}
+.hr-shows h3 {
+	padding-top: 10px;
+}
 
-
-
+.hr-spacer p {
+	padding-top: 10px;
+}
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
