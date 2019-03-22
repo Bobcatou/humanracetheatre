@@ -159,6 +159,21 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+/* Background for site */
+/*body {
+  color: #AE926B;
+  padding: 0;
+  transition: all 0.4s ease;
+  position: relative;
+  background: url(images/theater_background.jpeg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed; }
+
+*/
+
+
 a,
 button,
 input:focus,
