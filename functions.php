@@ -126,6 +126,28 @@ unregister_sidebar( 'header-right' );
 // Add image sizes.
 add_image_size( 'front-page-featured', 1000, 700, TRUE );
 
+// Add image sizes from LWM.
+
+add_image_size( 'actors', 200, 250 ); // For Actors gallery page
+add_image_size( 'slider', 1500, 600, true ); // For Homepage slider
+add_image_size( 'show-page', 250, 100 ); // For Show gallery page
+
+
+
+// Register the three useful image sizes for use in Add Media modal LWM
+add_filter( 'image_size_names_choose', 'lwm_custom_sizes' );
+function lwm_custom_sizes( $sizes ) {
+    return array_merge( $sizes, array(
+        'actors' => __( 'For Actors Page' ),
+        'slider' => __( 'For Homepage Slider' ),
+        'show-page' => __( 'For Show Page Thumbnails' ),
+        
+
+    ) );
+}
+
+
+
 // Reposition post image.
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 add_action( 'genesis_entry_header', 'genesis_do_post_image', 4 );
