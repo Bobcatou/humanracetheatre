@@ -2352,6 +2352,12 @@ p.form-submit,
 		width: 100%;
 	}
 
+/* LWM changes */
+.hr-shows td {
+    display: block;
+}
+
+
 }
 
 
