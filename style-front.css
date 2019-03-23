@@ -312,7 +312,9 @@ front-page-1 {
 }
 
 /* Bottom menu styling */
-#nav_menu-8 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children {
+#nav_menu-8 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children,
+#nav_menu-8 li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-180
+ {
 	display: inline-block;
 	width: 33%;
     vertical-align: top;
