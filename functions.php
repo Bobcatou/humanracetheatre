@@ -329,7 +329,7 @@ genesis_register_sidebar( array(
 genesis_register_sidebar( array(
 	'id'          => 'front-page-3',
 	'name'        => __( 'Bottom Menu', 'digital-pro' ),
-	'description' => __( 'This is the 3rd section on the front page.', 'digital-pro' ),
+	'description' => __( 'This is the 3rd section on the front page and holds contains bottom menu for all pages.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4',
@@ -339,5 +339,33 @@ genesis_register_sidebar( array(
 genesis_register_sidebar( array(
 	'id'          => 'front-page-5',
 	'name'        => __( 'Promo Area', 'digital-pro' ),
-	'description' => __( 'This is above the footer menu', 'digital-pro' ),
+	'description' => __( 'This is above the bottom menu and contains a promo widget', 'digital-pro' ),
 ) );
+
+
+
+
+//*Organizes Menu so it onlyl fades up on home page and no other
+add_action( 'genesis_before_footer', 'add_genesis_bottom_menu', 10 );
+function add_genesis_bottom_menu() {
+if ( !is_front_page() )
+                genesis_widget_area( 'front-page-3', array(
+		'before' => '<div id="front-page-3" class="front-page-3"><div class="wrap"><div class="flexible-widgets widget-area' . digital_widget_area_class( 'front-page-3' ) . '">',
+		'after'  => '</div></div></div>',
+    ) );
+
+}
+
+//*Organizes Promo area so it onlyl fades up on home page and no other
+add_action( 'genesis_before_footer', 'add_genesis_promo_area', 5 );
+function add_genesis_promo_area() {
+if ( !is_front_page() )
+                genesis_widget_area( 'front-page-5', array(
+		'before' => '<div id="front-page-5" class="front-page-5"><div class="wrap"><div class="flexible-widgets widget-area' . digital_widget_area_class( 'front-page-5' ) . '">',
+		'after'  => '</div></div></div>',
+    ) );
+
+}
+
+
+
