@@ -2147,7 +2147,17 @@ p.form-submit,
 
 
 
+/* Past Shows pages */
 
+.past-shows {
+    padding-bottom: 40px;
+}
+
+
+.past-shows-wrap .clearfix {
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
 
 
 
