@@ -2156,11 +2156,16 @@ p.form-submit,
 
 .past-shows-wrap .clearfix {
     border-bottom: 1px solid #333;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
+h3.other-work {
+    padding-top: 40px;
+}
 
-
+.recent-past-productions.one-third, .recent-past-productions.one-half.first {
+    padding-bottom: 30px;
+}
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
