@@ -341,6 +341,11 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Promo Area', 'digital-pro' ),
 	'description' => __( 'This is above the bottom menu and contains a promo widget', 'digital-pro' ),
 ) );
+genesis_register_sidebar( array(
+	'id'          => 'under-posts-pages',
+	'name'        => __( 'Area Under Page and Post', 'digital-pro' ),
+	'description' => __( 'Area under post or page main area/wrap where you can add full width content.  ', 'digital-pro' ),
+) );
 
 
 
@@ -366,6 +371,24 @@ if ( !is_front_page() )
     ) );
 
 }
+
+//*Gives extra area under post or page for content
+add_action( 'genesis_after_content_sidebar_wrap', 'add_genesis_additional_page_content' );
+function add_genesis_additional_page_content() {
+if ( !is_front_page() )
+                genesis_widget_area( 'under-posts-pages', array(
+		'before' => '<div id="under-posts-pages" class="under-posts-pages"><div class="wrap"><div class="flexible-widgets widget-area' . digital_widget_area_class( 'under-posts-pages' ) . '">',
+		'after'  => '</div></div></div>',
+    ) );
+
+}
+
+
+
+
+
+
+
 
 
 
