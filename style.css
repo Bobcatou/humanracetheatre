@@ -1,5 +1,5 @@
 /*
-	Theme Name: Digital Pro 11
+	Theme Name: Digital Pro 
 	Theme URI: http://my.studiopress.com/themes/digital/
 	Description: Put your words and images at the forefront in an uncluttered design that shows them at their finest.
 	Author: StudioPress
@@ -2176,6 +2176,14 @@ h3.other-work {
 .recent-past-productions.one-third, .recent-past-productions.one-half.first {
     padding-bottom: 30px;
 }
+
+.front-page-2 {
+    background: transparent;
+}
+
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
