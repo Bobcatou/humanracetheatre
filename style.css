@@ -2177,10 +2177,18 @@ h3.other-work {
     padding-bottom: 30px;
 }
 
-.front-page-2 {
-    background: transparent;
+
+div#soliloquy-thumbnails-container-16 {
+	background: transparent;
+	top: -60px;
+	z-index: 9999;
 }
 
+
+footer.site-footer p,
+footer.site-footer a {
+    color: #fff;
+}
 
 
 
