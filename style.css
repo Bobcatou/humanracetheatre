@@ -1,5 +1,5 @@
 /*
-	Theme Name: Digital Pro
+	Theme Name: Digital Pro 11
 	Theme URI: http://my.studiopress.com/themes/digital/
 	Description: Put your words and images at the forefront in an uncluttered design that shows them at their finest.
 	Author: StudioPress
@@ -160,10 +160,10 @@ body {
 }
 
 /* Background for site */
-/*body {
+body {
   color: #AE926B;
   padding: 0;
-  transition: all 0.4s ease;
+  transition: all .4s ease;
   position: relative;
   background: url(images/theater_background.jpeg);
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ body {
   background-size: cover;
   background-attachment: fixed; }
 
-*/
+
 
 
 a,
@@ -1434,8 +1434,10 @@ a[rel~="attachment"]:hover,
 	color: #232525;
 	display: block;
 	font-family: 'Vollkorn', serif;
-	font-size: 12px;
-	font-size: 1.2rem;
+/*	font-size: 12px;
+	font-size: 1.2rem; */
+	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 600;
 	letter-spacing: 0.5px;
 	padding: 10px;
