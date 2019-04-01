@@ -534,6 +534,16 @@ front-page-1 {
 		padding-bottom: 20px;
 	}
 
+#nav_menu-8 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children,
+#nav_menu-8 li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-180
+ {
+	display: inline-block;
+	width: 100%;
+    vertical-align: top;
+    margin-top:20px;
+}
+
+
 }
 
 
