@@ -1366,13 +1366,21 @@ a[rel~="attachment"]:hover,
 	margin-top: 22px;
 }
 
-.header-image .site-header {
+/*.header-image .site-header {
 	padding: 9px 40px;
+} */
+
+.header-image .site-header {
+    padding: 20px 60px 30px 40px;
 }
 
 .header-image .site-header.shrink {
-	padding: 0 40px;
+    padding: 0px 60px 10px 40px;
 }
+
+/*.header-image .site-header.shrink {
+	padding: 0 40px;
+}*/
 
 .header-image .site-title {
 	display: block;
