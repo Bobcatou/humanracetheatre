@@ -194,7 +194,8 @@ front-page-1 {
 --------------------------------------------- */
 
 .front-page-2 {
-	background-color: #fff;
+/*	background-color: #fff; */
+	background-color: #transparent;
 	border-top: 70px solid transparent;
 	margin-top: -70px;
 }
