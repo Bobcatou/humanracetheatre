@@ -789,8 +789,10 @@ th {
 .site-inner {
 	background-color: #fff;
 	clear: both;
-	margin: 90px auto 0;
-	padding: 10% 40px;
+/*	margin: 90px auto 0;
+	padding: 10% 40px; */
+	margin: 170px auto 40px;
+	padding: 2% 40px;	
 	max-width: 1280px;
 }
 
