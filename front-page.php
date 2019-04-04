@@ -147,7 +147,7 @@ genesis_widget_area( 'front-page-1', array(
 
 genesis_widget_area( 'front-page-4', array(
 		'before' => '<div id="front-page-4" class="front-page-4"><div class="wrap"><div class="widget-area fadeup-effect">',
-		'after'  => '</div></div>',
+		'after'  => '</div></div></div>',
 	) );
 
 genesis_widget_area( 'front-page-5', array(
