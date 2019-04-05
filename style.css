@@ -202,7 +202,7 @@ textarea:focus,
 }
 
 a {
-	border-bottom: 1px solid #232525;
+/*	border-bottom: 1px solid #232525; */
 	color: #232525;
 	text-decoration: none;
 }
