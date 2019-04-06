@@ -2191,7 +2191,11 @@ footer.site-footer a {
     color: #fff;
 }
 
-
+/* Actor galleries */
+.row h3 {
+    font-size: 2rem;
+    padding-top: 5px;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
