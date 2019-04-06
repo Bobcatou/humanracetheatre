@@ -332,10 +332,27 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the 3rd section on the front page and holds contains bottom menu for all pages.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-4',
-	'name'        => __( 'About the Theater Area', 'digital-pro' ),
-	'description' => __( 'Information of the Theater.', 'digital-pro' ),
+	'id'          => 'front-page-4a',
+	'name'        => __( 'Education', 'digital-pro' ),
+	'description' => __( 'Front Page-Education image/link.', 'digital-pro' ),
 ) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4b',
+	'name'        => __( 'New Works', 'digital-pro' ),
+	'description' => __( 'Front Page-New Works Image/Page Link.', 'digital-pro' ),
+) );
+
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4c',
+	'name'        => __( 'Plan Your Visit', 'digital-pro' ),
+	'description' => __( 'Front Page-Plan Your Visit Image/Page Link.', 'digital-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4d',
+	'name'        => __( 'Support Us', 'digital-pro' ),
+	'description' => __( 'Front Page-Support Us Image/Page Link.', 'digital-pro' ),
+) );
+
 genesis_register_sidebar( array(
 	'id'          => 'front-page-5',
 	'name'        => __( 'Promo Area', 'digital-pro' ),
