@@ -145,30 +145,10 @@ genesis_widget_area( 'front-page-1', array(
 		echo '<div class="clearfix"></div>';
 
 
-genesis_widget_area( 'front-page-4a', array(
-		'before' => '<div id="front-page-4a" class="front-page-4 one-fourth first"><div class="wrap"><div class="widget-area fadeup-effect">',
-		'after'  => '</div></div>',
-	) );
-
-genesis_widget_area( 'front-page-4b', array(
-		'before' => '<div id="front-page-4b" class="front-page-4 one-fourth"><div class="widget-area fadeup-effect">',
-		'after'  => '</div></div>',
-	) );
-
-genesis_widget_area( 'front-page-4c', array(
-		'before' => '<div id="front-page-4c" class="front-page-4 one-fourth"><div class="widget-area fadeup-effect">',
-		'after'  => '</div></div>',
-	) );		
-	
-genesis_widget_area( 'front-page-4d', array(
-		'before' => '<div id="front-page-4d" class="front-page-4 one-fourth"><div class="widget-area fadeup-effect">',
+genesis_widget_area( 'front-page-4', array(
+		'before' => '<div id="front-page-4" class="front-page-4"><div class="wrap"><div class="widget-area fadeup-effect">',
 		'after'  => '</div></div></div>',
 	) );
-	
-//*Closes wrap and clears columns LWM
-		echo '<div class="clearfix"></div>';
-	
-		
 
 genesis_widget_area( 'front-page-5', array(
 		'before' => '<div id="front-page-5" class="front-page-1"><div class="widget-area fadeup-effect">',
