@@ -332,27 +332,10 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the 3rd section on the front page and holds contains bottom menu for all pages.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-4a',
-	'name'        => __( 'Education', 'digital-pro' ),
-	'description' => __( 'Front Page-Education image/link.', 'digital-pro' ),
+	'id'          => 'front-page-4',
+	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'description' => __( 'Information of the Theater.', 'digital-pro' ),
 ) );
-genesis_register_sidebar( array(
-	'id'          => 'front-page-4b',
-	'name'        => __( 'New Works', 'digital-pro' ),
-	'description' => __( 'Front Page-New Works Image/Page Link.', 'digital-pro' ),
-) );
-
-genesis_register_sidebar( array(
-	'id'          => 'front-page-4c',
-	'name'        => __( 'Plan Your Visit', 'digital-pro' ),
-	'description' => __( 'Front Page-Plan Your Visit Image/Page Link.', 'digital-pro' ),
-) );
-genesis_register_sidebar( array(
-	'id'          => 'front-page-4d',
-	'name'        => __( 'Support Us', 'digital-pro' ),
-	'description' => __( 'Front Page-Support Us Image/Page Link.', 'digital-pro' ),
-) );
-
 genesis_register_sidebar( array(
 	'id'          => 'front-page-5',
 	'name'        => __( 'Promo Area', 'digital-pro' ),
@@ -365,7 +348,16 @@ genesis_register_sidebar( array(
 ) );
 
 
+//*Organizes Promo area so it onlyl fades up on home page and no other
+add_action( 'genesis_before_footer', 'add_genesis_promo_area', 5 );
+function add_genesis_promo_area() {
+if ( !is_front_page() )
+                genesis_widget_area( 'front-page-5', array(
+		'before' => '<div id="front-page-5" class="front-page-5"><div class="wrap"><div class="flexible-widgets widget-area' . digital_widget_area_class( 'front-page-5' ) . '">',
+		'after'  => '</div></div></div>',
+    ) );
 
+}
 
 //*Organizes Menu so it onlyl fades up on home page and no other
 add_action( 'genesis_before_footer', 'add_genesis_bottom_menu', 10 );
@@ -378,16 +370,7 @@ if ( !is_front_page() )
 
 }
 
-//*Organizes Promo area so it onlyl fades up on home page and no other
-add_action( 'genesis_before_footer', 'add_genesis_promo_area', 5 );
-function add_genesis_promo_area() {
-if ( !is_front_page() )
-                genesis_widget_area( 'front-page-5', array(
-		'before' => '<div id="front-page-5" class="front-page-5"><div class="wrap"><div class="flexible-widgets widget-area' . digital_widget_area_class( 'front-page-5' ) . '">',
-		'after'  => '</div></div></div>',
-    ) );
 
-}
 
 //*Gives extra area under post or page for content
 add_action( 'genesis_after_content_sidebar_wrap', 'add_genesis_additional_page_content' );
@@ -401,10 +384,14 @@ if ( !is_front_page() )
 }
 
 
+
+
+
+
 	//* Change the footer text
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = '[footer_copyright] &middot; The Human Race Theatre Company</br><a href="https://goo.gl/maps/A8qV6pppMu12" target="_blank" rel="noopener">126 N. Main Street, Suite 300, Dayton, Ohio 45402-1766 </a></br>Box Office: <a href="tel:937-228-3630">(937) 228-3630</a> | Administrative Office: <a href="tel:937-461-3823">(937) 461-3823</a> </br>Human Race Theatre Company. All Rights Reserved. The Human Race Theatre Company is a 501(c)(3) not-for-profit organization.';
+	$creds = '[footer_copyright] &middot; The Human Race Theatre Company</br><a href="https://goo.gl/maps/A8qV6pppMu12" target="_blank" rel="noopener">126 N. Main Street, Suite 300, Dayton, Ohio 45402-1766 </a></br>Box Office: <a href="tel:937-461-3823">(937) 461-3823</a>| Administrative Office: <a href="tel:937-461-3823">(937) 461-3823</a> </br>Human Race Theatre Company. All Rights Reserved. The Human Race Theatre Company is a 501(c)(3) not-for-profit organization.';
 	return $creds;
 }
 
