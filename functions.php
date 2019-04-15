@@ -391,9 +391,10 @@ if ( !is_front_page() )
 	//* Change the footer text
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = '[footer_copyright] &middot; The Human Race Theatre Company</br><a href="https://goo.gl/maps/A8qV6pppMu12" target="_blank" rel="noopener">126 N. Main Street, Suite 300, Dayton, Ohio 45402-1766 </a></br>Box Office: <a href="tel:937-461-3823">(937) 461-3823</a>| Administrative Office: <a href="tel:937-461-3823">(937) 461-3823</a> </br>Human Race Theatre Company. All Rights Reserved. The Human Race Theatre Company is a 501(c)(3) not-for-profit organization.';
+	$creds = '[footer_copyright] &middot; The Human Race Theatre Company</br><a href="https://goo.gl/maps/A8qV6pppMu12" target="_blank" rel="noopener">126 N. Main Street, Suite 300, Dayton, Ohio 45402-1766 </a></br>Box Office: <a href="tel:937-228-3630">(937) 461-3823</a>| Administrative Office: <a href="tel:937-461-3823">(937) 461-3823</a> </br>Human Race Theatre Company. All Rights Reserved. The Human Race Theatre Company is a 501(c)(3) not-for-profit organization.';
 	return $creds;
 }
+
 
 
 
