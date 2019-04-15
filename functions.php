@@ -332,10 +332,27 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the 3rd section on the front page and holds contains bottom menu for all pages.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-4',
+	'id'          => 'front-page-4a',
 	'name'        => __( 'About the Theater Area', 'digital-pro' ),
-	'description' => __( 'Information of the Theater.', 'digital-pro' ),
+	'description' => __( 'Information of the Theater - First Box.', 'digital-pro' ),
 ) );
+
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4b',
+	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'description' => __( 'Information of the Theater - Second Box.', 'digital-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4c',
+	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'description' => __( 'Information of the Theater - Third Box', 'digital-pro' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'front-page-4d',
+	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'description' => __( 'Information of the Theater - Fourth Box', 'digital-pro' ),
+) );
+
 genesis_register_sidebar( array(
 	'id'          => 'front-page-5',
 	'name'        => __( 'Promo Area', 'digital-pro' ),
