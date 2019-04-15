@@ -130,12 +130,12 @@ genesis_widget_area( 'front-page-1', array(
 
 
 	genesis_widget_area( 'front-page-2-left', array(
-		'before' => '<div id="front-page-2-left" class="front-page-2 one-half first"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_halves_widget_area_class( 'front-page-2' ) . '">',
+		'before' => '<div id="front-page-2-left" class="front-page-2 one-half first"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect">',
 		'after'  => '</div></div></div>',
 	) );
 	
 		genesis_widget_area( 'front-page-2-right', array(
-		'before' => '<div id="front-page-2-right" class="front-page-2 one-half"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_halves_widget_area_class( 'front-page-2' ) . '">',
+		'before' => '<div id="front-page-2-right" class="front-page-2 one-half"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect">',
 		'after'  => '</div></div></div>',
 	) );
 
@@ -144,22 +144,44 @@ genesis_widget_area( 'front-page-1', array(
 		echo '</div>';
 		echo '<div class="clearfix"></div>';
 
-
-genesis_widget_area( 'front-page-4', array(
-		'before' => '<div id="front-page-4" class="front-page-4"><div class="wrap"><div class="widget-area fadeup-effect">',
-		'after'  => '</div></div></div>',
-	) );
-
-genesis_widget_area( 'front-page-5', array(
-		'before' => '<div id="front-page-5" class="front-page-1"><div class="widget-area fadeup-effect">',
+echo '<div class="front-page-4 wrap">';
+genesis_widget_area( 'front-page-4a', array(
+		'before' => '<div id="front-page-4a" class="front-page-4a one-fourth first"><div class="widget-area fadeup-effect">',
 		'after'  => '</div></div>',
 	) );
+	
+genesis_widget_area( 'front-page-4b', array(
+		'before' => '<div id="front-page-4b" class="front-page-4b one-fourth"><div class="widget-area fadeup-effect">',
+		'after'  => '</div></div>',
+	) );	
+genesis_widget_area( 'front-page-4c', array(
+		'before' => '<div id="front-page-4c" class="front-page-4c one-fourth"><div class="widget-area fadeup-effect">',
+		'after'  => '</div></div>',
+	) );	
+genesis_widget_area( 'front-page-4d', array(
+		'before' => '<div id="front-page-4d" class="front-page-4d one-fourth"><div class="widget-area fadeup-effect">',
+		'after'  => '</div></div>',
+	) );	
+	
+	
 
+echo '</div>';
+
+echo '<div class="front-page-5 wrap">';
+
+
+genesis_widget_area( 'front-page-5', array(
+		'before' => '<div id="front-page-5" class="front-page-5"><div class="widget-area fadeup-effect">',
+		'after'  => '</div></div>',
+	) );
+echo '</div>';
 
 	genesis_widget_area( 'front-page-3', array(
 		'before' => '<div id="front-page-3" class="front-page-3"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_widget_area_class( 'front-page-3' ) . '">',
 		'after'  => '</div></div></div>',
 	) );
+
+
 
 
 
