@@ -333,23 +333,23 @@ genesis_register_sidebar( array(
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4a',
-	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'name'        => __( 'About the Theater Area 1', 'digital-pro' ),
 	'description' => __( 'Information of the Theater - First Box.', 'digital-pro' ),
 ) );
 
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4b',
-	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'name'        => __( 'About the Theater Area 2', 'digital-pro' ),
 	'description' => __( 'Information of the Theater - Second Box.', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4c',
-	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'name'        => __( 'About the Theater Area 3', 'digital-pro' ),
 	'description' => __( 'Information of the Theater - Third Box', 'digital-pro' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4d',
-	'name'        => __( 'About the Theater Area', 'digital-pro' ),
+	'name'        => __( 'About the Theater Area 4', 'digital-pro' ),
 	'description' => __( 'Information of the Theater - Fourth Box', 'digital-pro' ),
 ) );
 
