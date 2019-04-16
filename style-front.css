@@ -207,6 +207,9 @@ front-page-1 {
 	padding-right: 40px;
 }
 
+
+
+
 .front-page-2 .widget-area {
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -546,4 +549,13 @@ front-page-1 {
 
 }
 
+.wp-caption-text {
+	background: #000;
+	padding-bottom: 10px;
+}
 
+.wp-caption-text h4 {
+		color: #AE926B !important;
+		padding-top: 10px;
+
+}
