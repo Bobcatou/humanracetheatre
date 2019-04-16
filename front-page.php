@@ -167,6 +167,8 @@ genesis_widget_area( 'front-page-4d', array(
 
 echo '</div>';
 
+		echo '<div class="clearfix"></div>';
+
 echo '<div class="front-page-5 wrap">';
 
 
