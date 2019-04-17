@@ -2071,6 +2071,42 @@ p.form-submit,
 }
 
 
+.creative.wrap, .cast1.wrap, .sponsors.wrap {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 20px;
+}
+
+.creative.wrap h3, .cast1.wrap h3 {
+	text-align: center;
+	padding-top: 30px;
+}
+h2.crew-title, h2.cast-title{
+	padding-top: 30px;
+	text-align: center;
+	text-decoration: underline;
+}
+.footnotes p {
+	margin-bottom: 0;
+}
+
+
+.show-top-part {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 40px;
+}
+
+
+.sponsors.wrap h4 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.sponsors.wrap h3 {
+	padding-top: 40px;
+}
+
+
+
 /* Front Page 3 /// Added from front page for menu widgets
 --------------------------------------------- */
 
