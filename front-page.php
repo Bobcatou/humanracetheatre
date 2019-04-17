@@ -171,7 +171,6 @@ echo '</div>';
 
 echo '<div class="front-page-5 wrap">';
 
-
 genesis_widget_area( 'front-page-5', array(
 		'before' => '<div id="front-page-5" class="front-page-5"><div class="widget-area fadeup-effect">',
 		'after'  => '</div></div>',
